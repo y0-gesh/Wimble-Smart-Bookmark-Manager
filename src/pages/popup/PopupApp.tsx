@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
-  Bookmark,
   ExternalLink,
   FolderKanban,
   RotateCcw,
@@ -88,9 +87,11 @@ export function PopupApp() {
       {/* Header */}
       <header className="flex items-center justify-between px-4 py-3 bg-white border-b border-slate-200">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-indigo-600 text-white">
-            <Bookmark className="w-4 h-4" />
-          </div>
+          <img
+            src="/icons/icon48.png"
+            alt="Wimble logo"
+            className="w-7 h-7 rounded-lg shadow-xs"
+          />
           <div>
             <h1 className="text-sm font-semibold leading-tight">Wimble</h1>
             <p className="text-[11px] text-slate-500">{bookmarks.length} bookmarks</p>

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { Archive, ArrowLeftRight, Bookmark, Search, Sparkles } from 'lucide-react';
+import { Archive, ArrowLeftRight, Search, Sparkles } from 'lucide-react';
 import {
   createBackupSnapshot,
   deleteBackup,
@@ -104,9 +104,11 @@ export function ManagerApp() {
       <header className="bg-white border-b border-slate-200 sticky top-0 z-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-indigo-600 text-white shadow-xs">
-              <Bookmark className="w-5 h-5" />
-            </div>
+            <img
+              src="/icons/icon128.png"
+              alt="Wimble logo"
+              className="w-9 h-9 rounded-xl shadow-xs"
+            />
             <div>
               <h1 className="text-base font-bold text-slate-900 leading-tight">
                 Wimble - Smart Bookmark Manager

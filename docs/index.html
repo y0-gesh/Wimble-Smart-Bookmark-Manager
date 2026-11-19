@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Wimble</title>
+  <meta name="description" content="Privacy Policy for Wimble - Smart Bookmark Manager Chrome Extension">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/yogesh-tandan/Bookmark-Manager/main/public/icons/icon48.png">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #4338ca;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-main);
+      background-color: var(--bg);
+      padding: 2.5rem 1rem;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    .brand-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+
+    .last-updated {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.015em;
+    }
+
+    p {
+      color: #334155;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    .highlight-box {
+      background-color: #eef2ff;
+      border-left: 4px solid var(--primary);
+      padding: 1rem 1.25rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+      margin: 1.5rem 0;
+      color: #3730a3;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem;
+      }
+      .container {
+        padding: 1.75rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="brand-icon">W</div>
+        <span class="brand-name">Wimble - Smart Bookmark Manager</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last Updated: November 20, 2026</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Introduction</h2>
+        <p>Wimble is a Chrome extension designed to help users organize, categorize, search, and manage their browser bookmarks.</p>
+        <p>We respect user privacy and aim to minimize data collection. Wimble is designed to process and store bookmark information locally in the user's browser.</p>
+        <div class="highlight-box">
+          <strong>Local-Only Guarantee:</strong> Wimble does not send your bookmarks, scanned website data, or browsing activity to any external server or third party. Everything is processed directly on your computer.
+        </div>
+      </section>
+
+      <section>
+        <h2>2. Information We Access</h2>
+        <p>Wimble accesses the following information through Chrome's Bookmarks API:</p>
+        <ul>
+          <li>Bookmark titles</li>
+          <li>Bookmark URLs</li>
+          <li>Bookmark folder structure</li>
+          <li>Bookmark identifiers required for bookmark management</li>
+        </ul>
+        <p>This information is used exclusively to provide bookmark organization, categorization, search, backup, restore, and import/export functionality.</p>
+      </section>
+
+      <section>
+        <h2>3. How Information Is Used</h2>
+        <p>Bookmark information is used to:</p>
+        <ul>
+          <li>Display and organize saved bookmarks.</li>
+          <li>Automatically categorize bookmarks.</li>
+          <li>Search and retrieve saved bookmarks.</li>
+          <li>Manage bookmark folders and entries.</li>
+          <li>Support backup, restoration, and import/export functionality.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Data Storage and Security</h2>
+        <p>Wimble stores its extension data locally using Chrome's storage facilities (<code>chrome.storage.local</code>).</p>
+        <p>Bookmark organization information and extension preferences remain in the user's browser.</p>
+        <p>Wimble does not require users to create an account or provide personal identification information.</p>
+      </section>
+
+      <section>
+        <h2>5. Data Sharing</h2>
+        <p>Wimble does not sell, rent, or share users' bookmark information with third parties.</p>
+        <p>Bookmark information is not transmitted to external servers by Wimble under its local-only operating model.</p>
+      </section>
+
+      <section>
+        <h2>6. Data Retention and Deletion</h2>
+        <p>Wimble's locally stored information remains in the browser until it is deleted by the user or removed through browser or extension data management.</p>
+        <p>Users can remove the extension at any time to stop using Wimble and clear its associated extension data through Chrome's extension data management.</p>
+      </section>
+
+      <section>
+        <h2>7. Third-Party Services</h2>
+        <p>Wimble does not use third-party analytics, tracking, or advertising services under its local-only operating model.</p>
+      </section>
+
+      <section>
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>This privacy policy may be updated when Wimble's functionality or data practices change. Any updates will be published on this page.</p>
+      </section>
+
+      <section>
+        <h2>9. Contact</h2>
+        <p>For questions, concerns, or support regarding this privacy policy, contact:</p>
+        <p><a href="mailto:yogeshtandan25@gmail.com">yogeshtandan25@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Wimble. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

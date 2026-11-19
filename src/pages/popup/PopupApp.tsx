@@ -94,7 +94,7 @@ export function PopupApp() {
           />
           <div>
             <h1 className="text-sm font-semibold leading-tight">Wimble</h1>
-            <p className="text-[11px] text-slate-500">{bookmarks.length} bookmarks</p>
+            <p className="text-[10px] text-slate-500 font-medium">Smart Bookmark Manager · {bookmarks.length}</p>
           </div>
         </div>
         <button
